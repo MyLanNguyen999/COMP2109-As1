@@ -1,0 +1,230 @@
+/* 
+Theme name: Assignment 1
+Author: MyLan Nguyen
+Date: Feb 7, 2024
+Description: This is the Assignment 1.
+Requires at least: 5.9 
+Tested up to: 6.4 
+Requires PHP: 5.6 
+Version: 1
+*/
+/* * Global */
+html {
+    margin-top: -10px !important;
+    
+
+}
+* {
+    font-family: "Crimson Text", serif;
+}
+
+h1, h2 {
+    color: #60061E;
+}
+h1 {
+    text-align: center;
+    font-size: 50px;
+}
+h2 {
+    text-align: center;
+    font-size: 40px;
+}
+h3 {
+    font-size: 30px;
+    text-align: center;
+}
+p, .page-para {
+    font-size: 20px;
+    
+}
+
+/* img {
+    width: 300px;
+    height: 300px;
+} */
+
+/* * Header Template */
+header {
+    display: flex;
+    background-color: rgba(210, 207, 207, 0.771);
+    background-color: #FBD5DE;
+    margin-top: 0;
+    
+}
+header .menu {
+    display: flex;
+    margin: 0px;
+    padding: 30px;
+    list-style: none;
+    justify-content: center;
+    font-size: 25px;
+    justify-content: flex-end;
+}
+
+header .menu li {
+    padding: 0px 10px;
+    
+}
+.logo-section {
+    /* background-color: blueviolet; */
+    width: 20%;
+    display: inline-block;
+    box-sizing: border-box;
+}
+.header-logo {
+    width: 80px;
+    height: 80px;
+    padding: 3px 5px 3px 5px;
+    /* background-color: aquamarine; */
+   
+}
+nav {
+    /* background-color: lightblue; */
+    width: 80%;
+    display: inline-block;
+    margin-right: 0px;
+}
+nav>div>ul>li>a {
+    text-decoration: none;
+    padding: 5px 24px 5px 24px;
+    border: 3px solid #60061E;
+    border-radius: 10px;
+    color: #60061E;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+nav>div>ul>li>a:hover{
+    background-color: #60061E;
+    color: white;
+}
+
+/* * Homepage Temlate */
+main > div > section > h1 {
+    text-shadow: 4px 3px 4px rgba(0, 0, 0, .2);
+}
+.homepage-tab {
+    width: auto;
+    background-size: cover;
+    background-position: center;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    
+    
+}
+.overlay {
+    background-color: rgba(255, 255, 255, 0.833);
+}
+
+
+/* * Single Post Template */
+
+.post-heading{
+    color: #60061E;
+    font-size: 30px;;
+}
+.post-tab div {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+}
+.post-tab div h1 {
+    font-size: 4em;
+    color: #f8f8f8;
+    text-shadow: 4px 3px 4px rgba(0, 0, 0, .7);
+}
+.post-list {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: stretch;
+    /* align-items: flex-start; */
+}
+.post-list article {
+    background-color: #FBD5DE;
+    border: 3px solid #60061E;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px 1px #FBD5DE;
+}
+.post-list article > a > img {
+    width: 80%;
+    /* height: 100%; */
+    display: block;
+    margin: 0 auto;
+    padding-top: 10px;
+   
+}
+.post-title {
+    text-decoration: none;
+    font-size: 20px;
+    color: #60061E;
+    text-transform: uppercase;
+    font-weight:bold;
+}
+.post-title:hover {
+    -webkit-text-stroke: 1px white;
+    text-shadow: 1px 1px 0.5px #60061e;
+}
+.post-title > p {
+    text-align: center;
+    margin-top: 15px;
+}
+.post-list article > p {
+    text-align: center;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.img-page { 
+    display: flex;
+    justify-content: center;
+}
+
+/* * Index Page aka homepage */
+.homepage-image {
+    width: 30%;
+    height: 30%;
+}
+.homepage-wrapper {
+    text-align: center;
+}
+
+/* * Footer Template */
+
+footer {
+    width: 100%;
+    background-color: #FBD5DE;
+}
+.widget-area-1 {
+    width: 100%;
+    text-align: center;
+}
+footer .menu {
+    list-style-type: none;
+    display: flex; 
+    justify-content: space-evenly;
+    text-transform: uppercase;
+}
+a:-webkit-any-link {
+    text-decoration: none;
+    color: #60061E;
+}
+footer .menu li {
+    padding: 0px 10px;
+    font-size: 20px;
+    text-decoration: none;
+
+}
+.widgettitle {
+    margin: 0px;
+}
+.logo-widget {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    width: 100%;
+    margin-top: 0px;
+}
